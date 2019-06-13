@@ -1,0 +1,40 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="child-component">
+  <template>
+    <style>
+      /* :host {
+        display: block;
+        min-height: 1px;
+      } */
+      form {
+        /* 'fixed' will be also failing */
+        position: absolute; 
+      }
+    </style>
+    
+    <!-- <h3>This is a form</h3> -->
+    <form>
+      <label for="someInput">Your name :</label>
+      <input type="text" id="someInput">
+    </form>
+    
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class ChildComponent extends Polymer.Element {
+      static get is() { return 'child-component'; }
+      static get properties() {
+        return {
+          
+        };
+      }
+    }
+
+    window.customElements.define(ChildComponent.is, ChildComponent);
+  </script>
+</dom-module>

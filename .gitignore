@@ -1,0 +1,4 @@
+bower_components/
+node_modules
+test/e2e/reports
+test/e2e/errorShots

@@ -1,0 +1,33 @@
+{
+  "name": "e2e-test-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test:e2e": "./node_modules/.bin/wdio wdio.e2e.conf.js"
+  },
+  "keywords": [],
+  "author": "Taehwa.Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^1.10.0",
+    "cucumber": "^4.2.1",
+    "lerna": "^2.8.0",
+    "lighthouse": "^4.2.0",
+    "selenium-standalone": "^6.16.0",
+    "standard-version": "^4.4.0",
+    "wdio-chromedriver-service": "^0.1.5",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-json-reporter": "^0.4.0",
+    "wdio-junit-reporter": "0.0.2",
+    "wdio-multiple-cucumber-html-reporter": "^0.3.3",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-sync": "^0.7.3",
+    "wdio-webcomponents": "^1.1.0",
+    "webdriverio": "^4.13.2"
+  }
+}

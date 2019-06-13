@@ -1,0 +1,7 @@
+{
+  "name": "e2e",
+  "short_name": "e2e",
+  "description": "e2e-test-project",
+  "start_url": "/",
+  "display": "standalone"
+}
